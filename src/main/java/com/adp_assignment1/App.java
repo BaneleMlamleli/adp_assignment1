@@ -6,8 +6,11 @@ package com.adp_assignment1;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public int volume(int l, int b, int h) {
+        return l * b * h;
+    }
+
+    public int area(int l, int b){
+        return l * b;
     }
 }
