@@ -34,7 +34,7 @@ public class AppTest
 
     @Test
     public void volumeFail() {
-        Assert.fail("This test serves as a failure test");
+        Assert.fail("Failing test");
     }
 
     @Test (timeout = 200)
